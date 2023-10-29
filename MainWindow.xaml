@@ -1,0 +1,55 @@
+﻿<Window x:Class="ShakerSort.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ShakerSort"
+        mc:Ignorable="d"
+        Title="Shaker Sort" Height="600" Width="800">
+    <Grid ShowGridLines="False">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.05*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="0.05*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.1*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="0.1*"/>
+        </Grid.RowDefinitions>
+        
+        <Canvas Grid.Column="1" Grid.Row="1" Width="710" Height="355"
+                Loaded="FrameworkElement_OnLoaded" Background="White"
+                Name="canvas" ClipToBounds="True"></Canvas>
+        
+        <TextBox Grid.Row="2" Grid.Column="1" Width="350" Height="130"
+                 Margin="0 0 360 45"
+                 VerticalScrollBarVisibility="Auto"
+                 Name="TbInput" TextWrapping="Wrap"
+                 IsReadOnly="True"></TextBox>
+        
+        <TextBox Grid.Row="2" Grid.Column="1" Width="350" Height="130"
+                 Margin="360 0 0 45"
+                 VerticalScrollBarVisibility="Auto"
+                 Name="TbOutput" TextWrapping="Wrap"
+                 IsReadOnly="True"></TextBox>
+        
+        <Button Grid.Row="2" Grid.Column="1" Width="150" Height="30"
+                Margin="100 130 0 0"
+                Click="btnClear_Click" Name="btnClear">Clear</Button>
+        <Button Grid.Row="2" Grid.Column="1" Width="150" Height="30"
+                Margin="0 130 230 0"
+                Click="btnStartShakSort_Click" Name="btnStart">Start Shaker Sort</Button>
+        <Button Grid.Row="2" Grid.Column="1" Width="150" Height="30"
+                Margin="0 130 560 0"
+                Click="btnGenerateArr_Click" Name="btnGenerate">Generate Array</Button>
+        
+        <Label Grid.Row="2" Grid.Column="1" Width="75" Height="30"
+               Margin="480 130 0 0">Swap Count:</Label>
+        
+        <Label Grid.Row="2" Grid.Column="1" Width="75" Height="30"
+               Margin="620 130 0 0"
+               Name="lblSwapCount">0</Label>
+    </Grid>
+</Window>

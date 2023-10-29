@@ -1,0 +1,16 @@
+D:\Учеба\Вычислительные методы\ShakerSort\bin\Debug\ShakerSort.exe.config
+D:\Учеба\Вычислительные методы\ShakerSort\bin\Debug\ShakerSort.exe
+D:\Учеба\Вычислительные методы\ShakerSort\bin\Debug\ShakerSort.pdb
+D:\Учеба\Вычислительные методы\ShakerSort\obj\Debug\ShakerSort.csproj.AssemblyReference.cache
+D:\Учеба\Вычислительные методы\ShakerSort\obj\Debug\ShakerSort.csproj.SuggestedBindingRedirects.cache
+D:\Учеба\Вычислительные методы\ShakerSort\obj\Debug\MainWindow.g.cs
+D:\Учеба\Вычислительные методы\ShakerSort\obj\Debug\App.g.cs
+D:\Учеба\Вычислительные методы\ShakerSort\obj\Debug\ShakerSort_MarkupCompile.cache
+D:\Учеба\Вычислительные методы\ShakerSort\obj\Debug\ShakerSort_MarkupCompile.lref
+D:\Учеба\Вычислительные методы\ShakerSort\obj\Debug\MainWindow.baml
+D:\Учеба\Вычислительные методы\ShakerSort\obj\Debug\ShakerSort.g.resources
+D:\Учеба\Вычислительные методы\ShakerSort\obj\Debug\ShakerSort.Properties.Resources.resources
+D:\Учеба\Вычислительные методы\ShakerSort\obj\Debug\ShakerSort.csproj.GenerateResource.cache
+D:\Учеба\Вычислительные методы\ShakerSort\obj\Debug\ShakerSort.csproj.CoreCompileInputs.cache
+D:\Учеба\Вычислительные методы\ShakerSort\obj\Debug\ShakerSort.exe
+D:\Учеба\Вычислительные методы\ShakerSort\obj\Debug\ShakerSort.pdb
